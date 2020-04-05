@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="donate.css">
+    <link rel="stylesheet" href="donate.js">
+
+<script language="javascript">
+        function showPopup() { 
+            var l = screen.width / 2 - 300;
+            var t = screen.availHeight / 2 - 100;
+            window.open("donate_popup.html", "a", "width=600, height=200, left=" + l + ", top=" + t); 
+        }
+
+        function createitem() {
+            console.log(document.getElementById("in").value);
+        localStorage.setItem("donation_money", document.getElementById("in").value);
+        }
+        
+    </script>
+    <title>Donate</title>
+</head>
+<body>
+    <div id="header">
+        <ul class="title">
+            <li class="main">
+                    <h3 class="login"><button type="button" onclick="location.href='login.html'">로그인</button></h3>
+                    <h2 class="join"><button type="button" onclick="location.href='join.html'">회원가입</button></h2>
+                    <h1><a href="main.html" class="team">반 갑 수 화<img src="Logo2.png" class="real_logo"></h1></a>
+                </li>
+        </ul>
+    </div>
+    
+    <div class="menubar">
+        <hr class="hr1">
+        <div id="navbar">
+            <ul>
+                <li class="one" id="one"><a href="learn.html" class="two">수화 배우기</a></li><hr class="hr1">
+                <li class="one"><a href="donate.html" class="two">후원하기</a></li><hr class="hr1">
+                <li class="one"><a href="choice.html" class="two">채용 공고</a> </li><hr class="hr1">
+                <li class="one"><a href="notice.html" class="two">영상 시청</a></li><hr class="hr1">
+                <li class="one" id="last"><a href="more.html" class="two">더보기</a></li>
+            </ul>   
+        </div>
+        <hr class="hr1">
+    </div>
+
+    <br>
+
+    <div class="box">
+        <div class="what">
+            <h2 class="question">후원금은 어디에 사용되나요?</h2>
+            <p class="text_1">저희는 현재 한국청각장애인협회, 한국농아인협회에서 후원금을 지원받고 있습니다.</p>
+            <p class="text_1">이렇게 지원받은 후원금은 반갑수화를 이용하시는 청각 장애인 분들께 전달됩니다.</p>
+            <p class="text_1">후원금의 일부는 영상을 올리시는 청각 장애인 분들께 전달됩니다. 나머지는 '반갑수화'의 발전을 위한 기금으로 사용됩니다.</p>
+        </div>
+
+        <div class="in_box"> 
+                <input type="text" id="in" placeholder="금액 입력(숫자만 입력)" onKeypress="javascript:if(event.keyCode==13) {showPopup(),createitem();}">
+                <input type="submit" id="donation" value="후원하기" onclick="showPopup() ,createitem();">
+        </div>
+    </div>
+    
+
+</body>
+</html>

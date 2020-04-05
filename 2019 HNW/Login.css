@@ -1,0 +1,68 @@
+body{
+  font-family: 'Gothic A1', sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  background-color : #FFF9F5;
+  overflow:scroll;
+}
+
+.name{
+  font-size: 70px;
+  margin-right: 150px;
+  margin-left:20px;
+}
+
+.box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 100px;
+}
+
+.Login_box{ 
+  height: 50px;
+  border-top: 1px solid black;
+  padding-top: 10px;
+  width: 400px;
+}
+
+.Login{ 
+  width: 400px;
+  height: 40px;
+  padding-left: 10px;
+  box-sizing: border-box;
+  font-family: '나눔바른고딕';
+  border-radius: 50px;
+  border: 1px solid #F6CECE;  
+}
+
+.Password{
+  width: 400px;
+  height: 40px;
+  padding-left: 10px;
+  box-sizing: border-box;
+  font-family: '나눔바른고딕';
+  border-radius: 50px;
+  border: 1px solid #F6CECE;
+}
+
+.click{
+  font-family: '나눔바른고딕';
+  box-sizing: border-box;
+  font-size: 15px;
+  background-color: #F6CECE;
+  width: 400px;
+  height: 40px;
+  border: 10px;
+  border-radius: 50px;
+  
+}
+
+.button{
+  padding-top: 10px;
+}

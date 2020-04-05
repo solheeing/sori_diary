@@ -1,0 +1,70 @@
+html{
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+  /* font-family: 'Poor Story', cursive; */
+}
+
+div {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+input[type=text]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: justify;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color:#272727;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type=number]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: justify;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input[type=password]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: justify;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+#titleArea{
+  margin-left:25px;
+  margin-top:25px;
+}
+
+#memberjoin{
+  padding-left:20px;
+  padding-right:20px;
+}
+
+fieldset{
+  box-sizing: 200px;
+  padding-top:20px;
+}
+
+footer{
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+  text-align: center;
+}

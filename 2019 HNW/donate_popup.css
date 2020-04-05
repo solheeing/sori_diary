@@ -1,0 +1,37 @@
+.question{
+    font-family: '여기어때 잘난체';
+    font-size: 30px;
+    color: #BC9C86;
+    margin-top: 40px;
+}
+
+.answer{
+    margin-top: 40px;
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.yes{
+    width: 120px;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid #F6CECE;
+    background-color:orange;
+    font-family: '여기어때 잘난체';
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.no{
+    width: 120px;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid #F6CECE;
+    background-color:orange;
+    font-family: '여기어때 잘난체';
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}

@@ -1,0 +1,86 @@
+html, body, div, ul, li, form, fieldset, img {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    font-family: 'Poor Story', cursive;
+}
+
+body {
+    margin: 0 0 0 0;
+}
+
+#top_left{
+    font-size:20px;
+    cursor: pointer;
+}
+
+#top_left p{
+    padding-left:100px;
+    font-size:25px;
+}
+
+ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+li{
+    list-style:none; /* 앞 점 없어짐 */
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.top_right{
+    text-align: right;
+    position: absolute;
+    cursor: pointer;
+    line-height: 10px;
+    float:left;
+    right:0;
+    margin-right: 20px;
+}
+
+.member{
+    float:right;
+    right:0;
+    display:block;
+}
+
+.member li{
+    float: left;
+    margin: 0px 0px 0px 0px;
+    line-height: 11px;
+    padding: 0px 10px 0px 10px;
+    border-right: 1px solid #272727;
+}
+
+/* .top_right:hover{
+    color:rgb(184, 184, 184);
+}
+*/
+
+button{
+    font-family:'Encode Sans Semi Expanded', sans-serif;
+    background-color:white;
+    font-size:15px;
+    border:0;
+    outline:0;
+    cursor: pointer;
+}
+
+.img{
+    margin-left: 280px;
+}
+
+footer{
+    text-align:center;
+    font-size:15px;
+}

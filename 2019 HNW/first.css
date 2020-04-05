@@ -1,0 +1,243 @@
+html, body, div, ul, li, form, fieldset, img {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin:0 0 0 0;
+    font-family: '나눔바른고딕', sans-serif;
+    height: 100px;
+    display:justify;
+    background-color:#FFF9F5;
+    text-decoration: none;
+    overflow:scroll;
+}
+
+.main h1{
+    font-family:'여기어때 잘난체', sans-serif;
+    color: #BC9C86;
+    width: 250px;
+    margin-top:50px;
+    margin-left:50px;
+    margin-right:50px;
+    padding-left: 10px;
+    position: relative;
+    cursor: pointer;
+    list-style:none;
+}
+
+.main h2{
+    font-family:'나눔바른고딕', sans-serif;
+    margin-right:10px;
+    float:right;
+    right:0;
+    display:block;
+    cursor: pointer;
+    position: relative;
+}
+
+.main h3{
+    font-family:'나눔바른고딕', sans-serif;
+    margin-right:80px;
+    float:right;
+    right:0;
+    display:block;
+    cursor: pointer;
+    position: relative;
+}
+
+.join button{
+    color:grey;
+    width: 100px;
+    height: 40px;
+}
+
+.login button{
+    color:white;
+    width: 100px;
+    height: 40px;
+    background-color:orange;
+    border-radius:50px;
+}
+
+.team{
+    text-decoration: none;
+    width: 200px;
+    color: #BC9C86;
+}
+
+.join{
+    position: relative;
+    bottom: 20px;
+}
+
+.login{
+    position: relative;
+    bottom: 20px;
+}
+
+.logo{
+    width: 47px;
+    height: 40px;
+    position: relative;
+    top: 8px;
+    left: 10px;
+}
+
+button{
+    font-family:'나눔바른고딕', sans-serif;
+    background-color:#FFF9F5;
+    font-size:15px;
+    border:0;
+    outline:0;
+    cursor: pointer;
+}
+
+.menubar{
+    padding-top:18px;
+    margin-left: 50px;
+    margin-right: 80px;
+    position: relative;
+    text-align: center;
+}
+
+hr {
+    color: #BC9C86;
+    border-color: #BC9C86;
+    background-color: #BC9C86;
+}
+
+#navbar ul{
+    display:flex;
+    justify-content:space-around;
+    overflow: hidden;
+    cursor: pointer;
+    list-style-position: inside;
+}
+
+.one{
+    list-style:none;
+    display: list-item;
+    font-family:'나눔바른고딕', sans-serif;
+    display: block;
+    background-color: #FFF9F5;
+    color: grey;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: all 0.3s;
+ }
+     
+.two{
+    text-decoration: none;
+    color: grey;
+}
+
+.two:hover{
+    background-color: #BC9C86;
+    color: white;
+    cursor: pointer;
+}
+
+#one{
+    padding-left:150px;
+}
+
+#last{
+    padding-right:150px;
+}
+
+.box_1{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+@-webkit-keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+.question{
+    font-family: '여기어때 잘난체';
+    font-size: 30px;
+    color: #BC9C86;
+    -webkit-animation: fadein 1s;
+    animation-delay: 0.5s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.define{
+    font-family: '나눔고딕 Extrabold';
+    font-size: 27px;
+    -webkit-animation: fadein 1s;
+    animation-delay: 0.7s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.mean{
+    font-family: '나눔바른고딕';
+    font-size: 25px;
+    -webkit-animation: fadein 1s;
+    animation-delay: 0.7s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.text_1{
+    font-family: '나눔바른고딕';
+    font-size: 20px;
+    -webkit-animation: fadein 1s;
+    animation-delay: 0.9s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.box_2{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.type{
+    font-family: '나눔고딕 Extrabold';
+    font-size: 27px;
+    -webkit-animation: fadein 1s;
+    animation-delay: 1.1s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.text_2{
+    font-family: '나눔바른고딕';
+    font-size: 20px;
+    -webkit-animation: fadein 1s;
+    animation-delay: 1.3s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.jumping_text{
+    font-family: '여기어때 잘난체';
+    color: #BC9C86;
+    font-size: 28px;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    right: 150px;
+    bottom: 65px;
+    -webkit-animation: fadein 2s;
+    animation-delay: 3s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    text-decoration: none;
+}

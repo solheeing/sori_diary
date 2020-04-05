@@ -1,0 +1,154 @@
+html, body, div, ul, li, form, fieldset, img {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin:0 0 0 0;
+    font-family: '나눔바른고딕', sans-serif;
+    height: 100px;
+    background-color:#FFF9F5;
+    overflow:scroll;
+}
+
+.real_logo{
+    width: 47px;
+    height: 40px;
+    position: relative;
+    top: 8px;
+    left: 10px;
+}
+
+
+.main h1{
+    font-family:'여기어때 잘난체', sans-serif;
+    width:250px;
+    color: #BC9C86;
+    margin-top:50px;
+    margin-left:50px;
+    margin-right:50px;
+    padding-left: 10px;
+    position: relative;
+    cursor: pointer;
+    list-style:none;
+}
+
+.main h2{
+    font-family:'나눔바른고딕', sans-serif;
+    margin-right:5px;
+    float:right;
+    right:0;
+    display:block;
+    cursor: pointer;
+    position: relative;
+    padding-top:10px;
+}
+
+.main h3{
+    font-family:'나눔바른고딕', sans-serif;
+    margin-right:80px;
+    float:right;
+    right:0;
+    display:block;
+    cursor: pointer;
+    position: relative;
+    padding-top:10px;
+}
+
+.join button{
+    color:grey;
+    width: 100px;
+    height: 40px;
+}
+
+.login button{
+    color:white;
+    width: 100px;
+    height: 40px;
+    background-color:orange;
+    border-radius:50px;
+}
+
+.team{
+    text-decoration: none;
+    width: 200px;
+    color: #BC9C86;
+}
+
+.login button:hover{
+    text-decoration: underline;
+}
+
+.join{
+    position: relative;
+    bottom: 20px;
+}
+
+.login{
+    position: relative;
+    bottom: 20px;
+}
+
+button{
+    font-family:'나눔바른고딕', sans-serif;
+    background-color:#FFF9F5;
+    font-size:15px;
+    border:0;
+    outline:0;
+    cursor: pointer;
+}
+
+.menubar{
+    padding-top:18px;
+    margin-left: 50px;
+    margin-right: 80px;
+    position: relative;
+    text-align: center;
+}
+
+.hr1 {
+    background-color: #FFF9F5;
+    margin-top:6px;
+    background-color: #BC9C86;
+}
+
+#navbar ul{
+    display:flex;
+    justify-content:space-around;
+    overflow: hidden;
+    list-style-position: inside;
+}
+
+.one{
+    font-family:'나눔바른고딕', sans-serif;
+    display: block;
+    background-color: #FFF9F5;
+    color: grey;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center; 
+    text-decoration: none;
+    list-style:none;
+    display: list-item;
+ }
+     
+.two{
+    text-decoration: none;
+    color: grey;
+}
+
+.two:hover{
+    background-color: #BC9C86;
+    color: white;
+    cursor: pointer;
+}
+
+#one{
+    padding-left:120px;
+}
+
+#last{
+    padding-right:120px;
+}

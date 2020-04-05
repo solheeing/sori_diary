@@ -1,0 +1,270 @@
+html, body, div, ul, li, form, fieldset, img {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin:0 0 0 0;
+    font-family: '나눔손글씨 암스테르담', sans-serif;
+    position: absolute;
+    overflow: scroll;
+    overflow-x: hidden;
+    height:2220px;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width:100vw;
+    background-color:white;
+    position: fixed;
+    top: 0;
+    z-index: 100000;
+    visibility: visible;
+    box-shadow: 0px 2px 5px rgba(238, 238, 238, 0.5);
+}
+
+#navbar ul{
+    display:flex;
+    justify-content: space-around;
+    overflow: hidden;
+    list-style-position: inside;
+    padding-left:50px;
+}
+
+#navbar ul li{
+    list-style:none;
+    font-size:40px;
+}
+
+#navbar a{
+    text-decoration: none;
+    color:#707070;
+}
+
+#navbar #main{
+    margin-left:30px;
+    margin-right:30px;
+}
+
+#navbar #workspace{
+    margin-left:30px;
+    margin-right:30px;
+}
+
+#navbar #contact{
+    margin-left:20px;
+    margin-right:30px;
+}
+
+@-webkit-keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+#title p{
+    font-family: '여기어때 잘난체',sans-serif;
+    text-align: center;
+    font-size: 50px;
+    color:orange;
+    -webkit-animation: fadein 1s;
+    animation-delay: 0.4s;
+    animation-fill-mode: forwards;
+    cursor: pointer;
+    padding-top:80px;
+}
+
+#orange img{
+    object-fit:cover;
+    width:100vw;
+    height:530px;
+    vertical-align: middle;
+    -webkit-animation: fadein 1s;
+    animation-delay: 0.7s;
+    animation-fill-mode: forwards;
+    z-index:0;
+
+    position:relative;
+    height:75.5vh;
+    background-size:cover;
+}
+
+#one{
+    width: 350px;
+    height: 550px;
+    border: 1px solid black;
+    margin-top: 80px;
+    margin-left:160px;
+    float:left;
+}
+
+#one #web1{
+    width:300px;
+    cursor: pointer;
+    border: 25px solid #FFCCD1;
+}
+
+#one #logo1{
+    width:80px;
+    padding-top:25px;
+    padding-left:75px;
+}
+
+#one #AKSU{
+    float:right;
+    padding-right:95px;  
+    font-size:50px;
+    margin:0;
+    padding-top:30px;
+    padding-left:20px;
+}
+
+#one #text1{
+    font-size:30px;
+    padding-left:8px;
+    margin:0;
+    padding:0;
+    padding-left:30px;
+    padding-right:20px;
+    padding-top:25px;
+}
+
+#two{
+    width: 350px;
+    height: 550px;
+    border: 1px solid black;
+    margin-top: 80px;
+    margin-left:80px;
+    float:left;
+}
+
+#two #web2{
+    width:300px;
+    cursor:pointer;
+    border:25px solid #CCF1FF;
+}
+
+#two #logo2{
+    width:75px;
+    padding-top:25px;
+    padding-left:30px;
+}
+
+#two #SORI{
+    float:right;
+    font-size:43px;
+    margin:0;
+    padding-top:35px;
+    padding-right:35px;
+}
+
+#two #text2{
+    font-size:30px;
+    padding-left:8px;
+    margin:0;
+    padding:0;
+    padding-left:30px;
+    padding-right:20px;
+    padding-top:25px;
+}
+
+#three{
+    width: 350px;
+    height: 550px;
+    border: 1px solid black;
+    margin-top: 80px;
+    margin-left:80px;
+    float:left;
+}
+
+#three #web3{
+    width:300px;
+    cursor: pointer;
+    border:25px solid #FFF8CC;
+}
+
+#three #logo3{
+    width:75px;
+    padding-top:30px;
+    padding-left:60px;
+}
+
+#three #BANGAP{
+    float:right;   
+    font-size:50px;
+    margin:0;
+    padding-top:25px;
+    padding-right:60px;
+}
+
+#three #text3{
+    font-size:30px;
+    margin:0;
+    padding:0;
+    padding-left:30px;
+    padding-right:20px;
+    padding-top:25px;
+}
+
+#profile{
+    font-size:50px;
+    margin-right:100px;
+}
+
+#profile #profile{
+    width:250px;
+    border-radius:70px;
+    margin-top:250px;
+    margin-left:320px;
+    float:left;
+}
+
+#profile #clock{
+    width:35px;
+    padding-right:20px;
+    margin-top:300px;
+    margin-left:40px;
+}
+
+#profile #loc{
+    width:35px;
+    padding-right:20px;
+    margin-left:40px;
+}
+
+#profile #home{
+    width:35px;
+    padding-right:20px;
+    margin-left:40px;
+}
+
+footer{
+    text-align:center;
+    font-size:12px;
+    font-family: '나눔바른고딕',sans-serif;
+}
+
+footer img{
+    width:30px;
+    margin-left:10px;
+    margin-right:10px;
+    cursor: pointer;
+    padding-top:130px;
+    text-align:center;
+}
+
+footer p{
+    font-family:'나눔손글씨 암스테르담', sans-serif;
+    font-size:40px;
+    text-align:center;
+    margin:0;
+}

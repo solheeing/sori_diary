@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="donate_popup.css">
+    <script language="javascript">
+        function admit(){
+            alert("후원이 완료되었습니다. 감사합니다.");
+            self.close();
+            
+        }
+
+        function back(){
+            alert("후원이 취소되었습니다.")
+            self.close();
+        }
+
+        function readvalue(){
+            var x = localStorage.getItem("donation_money")
+            console.log(x)
+            document.getElementById("in").innerText = x;
+        }
+    </script>
+    <title>Document</title>
+</head>
+<body onload="readvalue()">
+    <center>
+        <h1 class="question">
+            <div id="money">
+                <span id="in"></span>
+                원 후원하시겠습니까?
+            </div>
+        </h1>
+    </center>
+    <center>
+        <div class="answer">
+            <input type="button" class="yes" value="예" onclick="admit();">
+            <input type="button" class="no" value="아니오" onclick="back();">
+        </div>
+    </center>
+</body>
+</html>
